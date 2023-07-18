@@ -17,7 +17,8 @@
 
 #include <UnigineLogic.h>
 #include <UnigineStreams.h>
-#include "GUI/StartDialog.h"
+#include <UnigineRender.h>
+#include "GUI/MainGUI.h"
 
 class AppWorldLogic : public Unigine::WorldLogic
 {
@@ -37,7 +38,7 @@ public:
 	int save(const Unigine::StreamPtr &stream) override;
 	int restore(const Unigine::StreamPtr &stream) override;
 private:
-	StartDialog startDialog;
+	MainGUI mainGUI;
 };
 
 #endif // __APP_WORLD_LOGIC_H__

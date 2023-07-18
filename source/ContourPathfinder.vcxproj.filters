@@ -27,6 +27,15 @@
       <UniqueIdentifier>{e9a1d39f-f772-4713-95f7-2eb9882605f0}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{8b0c288c-2d6b-499e-b280-f4d6d9456b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Source Files">
+      <UniqueIdentifier>{bdbc2fd8-e950-4408-8ccd-b80e7206baba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Header Files">
+      <UniqueIdentifier>{838f0a2c-3f19-42cd-8a81-ac384e9712dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AppEditorLogic.cpp">
@@ -41,8 +50,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GUI\StartDialog.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GUI\MainGUI.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CreateProjectWindow.cpp">
+      <Filter>GUI\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,8 +67,11 @@
     <ClInclude Include="include\AppWorldLogic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GUI\StartDialog.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="GUI\MainGUI.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CreateProjectWindow.h">
+      <Filter>GUI\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

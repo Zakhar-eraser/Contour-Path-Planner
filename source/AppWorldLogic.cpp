@@ -26,7 +26,8 @@ AppWorldLogic::~AppWorldLogic()
 int AppWorldLogic::init()
 {
 	// Write here code to be called on world initialization: initialize resources for your world scene during the world start.
-	startDialog = StartDialog(Gui::getCurrent());
+	Render::setEnabled(0);
+	mainGUI = MainGUI(Gui::getCurrent());
 	return 1;
 }
 

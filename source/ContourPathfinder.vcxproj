@@ -79,14 +79,16 @@
     <ClCompile Include="AppEditorLogic.cpp" />
     <ClCompile Include="AppSystemLogic.cpp" />
     <ClCompile Include="AppWorldLogic.cpp" />
+    <ClCompile Include="GUI\CreateProjectWindow.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="GUI\StartDialog.cpp" />
+    <ClCompile Include="GUI\MainGUI.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GUI\CreateProjectWindow.h" />
     <ClInclude Include="include\AppEditorLogic.h" />
     <ClInclude Include="include\AppSystemLogic.h" />
     <ClInclude Include="include\AppWorldLogic.h" />
-    <ClInclude Include="GUI\StartDialog.h" />
+    <ClInclude Include="GUI\MainGUI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>
