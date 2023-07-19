@@ -18,6 +18,7 @@
 #include <UnigineLogic.h>
 #include <UnigineStreams.h>
 #include <UnigineRender.h>
+
 #include "GUI/MainGUI.h"
 
 class AppWorldLogic : public Unigine::WorldLogic

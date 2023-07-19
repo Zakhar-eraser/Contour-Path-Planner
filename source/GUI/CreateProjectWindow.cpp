@@ -7,3 +7,15 @@ CreateProjectWindow::CreateProjectWindow(GuiPtr gui) {
   window->arrange();
   gui->addChild(window);
 }
+
+void CreateProjectWindow::Show()
+{
+  window->setEnabled(1);
+  window->setHidden(0);
+}
+
+void CreateProjectWindow::Hide()
+{
+  window->setEnabled(0);
+  window->setHidden(1);
+}

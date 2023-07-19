@@ -37,7 +37,8 @@
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ExecutablePath>$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Users\Ezard\Documents\UNIGINE Projects\ContourPathfinder\source\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Ezard\Documents\UNIGINE Projects\ContourPathfinder\source\include;C:\Users\Ezard\Documents\UNIGINE Projects\ContourPathfinder\source\GUI;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

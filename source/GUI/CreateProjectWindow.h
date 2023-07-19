@@ -17,7 +17,6 @@ using namespace Unigine;
 class CreateProjectWindow
 {
 public:
-
   CreateProjectWindow() = default;
   /**
    * @brief CreateProjectWindow constructor.
@@ -26,7 +25,19 @@ public:
    */
   CreateProjectWindow(GuiPtr gui);
   ~CreateProjectWindow() = default;
+
+  /**
+   * Shows and enables "creating project" window.
+   */
+  void Show();
+  /**
+   * Hides and disables "creating project" window.
+   */
+  void Hide();
 private:
+  /**
+   * Containter window.
+   */
   WidgetWindowPtr window;
 
 };
